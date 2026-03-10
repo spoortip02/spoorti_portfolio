@@ -3,179 +3,416 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Spoorti Patil Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fdfaf6;
-      color: #3e3e3e;
-    }
-    .navbar {
-      background-color: #f3ede4;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-      padding: 0;
-      margin: 0;
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: #3e3e3e;
-      font-weight: 500;
-    }
-    nav ul li a:hover {
-      color: #a17551;
-    }
-    .hero {
-      padding: 5rem 2rem;
-      background-color: #fdf6ee;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 2.5rem;
-      margin: 0.5rem 0;
-    }
-    .hero p {
-      max-width: 600px;
-      margin: 0 auto;
-      font-size: 1rem;
-    }
-    .section {
-      padding: 4rem 2rem;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    .section.light {
-      background-color: #f3ede4;
-    }
-    .section h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1.2rem;
-    }
-    .section ul {
-      list-style: disc;
-      padding-left: 1.2rem;
-      line-height: 1.8;
-    }
-    .section p, .section li {
-      font-size: 1rem;
-      margin-bottom: 0.5rem;
-    }
-    .footer {
-      text-align: center;
-      padding: 2rem;
-      background-color: #fdf6ee;
-      font-size: 0.9rem;
-    }
-    a {
-      color: #a17551;
-    }
-    a:hover {
-      color: #8a5a3a;
-    }
-
-    /* Hobby Section Styling */
-    .hobby-box {
-      background-color: #fff8f1;
-      border-left: 5px solid #a17551;
-      padding: 1.5rem;
-      border-radius: 6px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-      transition: background-color 0.3s;
-    }
-
-    .hobby-box:hover {
-      background-color: #fbeede;
-    }
-  </style>
+  <title>Spoorti S. Patil — Software Engineer</title>
+  <meta name="description" content="Spoorti Sidramappa Patil — Software Engineer specializing in full-stack development, front-end engineering, and cloud-native applications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="navbar">
-    <h1>Spoorti Patil</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section id="hero" class="hero">
-      <h2>Hello, I'm</h2>
-      <h1>Spoorti Sidramappa Patil</h1>
-      <p>A Computer Science graduate student at Indiana University Bloomington, passionate about front-end development and building user-centric web experiences with a blend of logic and creativity.</p>
-    </section>
+  <div id="c-dot"></div>
+  <div id="c-ring"></div>
 
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>I’m currently pursuing my Master’s in Computer Science at Indiana University Bloomington. I’m passionate about crafting clean, intuitive UIs and bringing ideas to life through code and design. I’m growing my interest in UI/UX and enjoy exploring how users interact with modern applications.</p>
-      <p>Beyond academics, I work part-time as a Center Desk Assistant and serve as a Teaching Assistant for courses covering HTML, CSS, Python, C++, and Arduino. I’ve also completed internships both in the U.S. and India, building real-world software products and learning agile workflows.</p>
-    </section>
-
-    <section id="skills" class="section light">
-      <h2>Skills</h2>
-      <ul>
-        <li><strong>Languages:</strong> Python, Java, C, C++, Dart, JavaScript</li>
-        <li><strong>Web Technologies:</strong> HTML, CSS, React, Flutter, Node.js</li>
-        <li><strong>Tools & Platforms:</strong> Git, Docker, Arduino, Figma</li>
-        <li><strong>Databases & Cloud:</strong> MySQL, PostgreSQL, Firebase, MongoDB, AWS</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Secure Digital Identity using NFTs:</strong> A decentralized app using Ethereum, Web3.js, and React for identity verification, published at IEEE ICIRCA 2023.</li>
-        <li><strong>Event Management System (Flutter):</strong> A mobile-first platform enabling event creation, registration, and admin roles with real-time feedback.</li>
-        <li><strong>Delivery Management System:</strong> Role-based web app to manage deliveries, tasks, and drivers with live status updates.</li>
-        <li><strong>F1 Data Analysis Platform:</strong> A data-driven dashboard built using Flask and MySQL to visualize race trends and driver stats.</li>
-      </ul>
-    </section>
-
-    <section id="experience" class="section light">
-      <h2>Experience</h2>
-      <ul>
-        <li><strong>Center Desk Assistant</strong> – Ashton Center, Indiana University (2025–Present)</li>
-        <li><strong>Teaching Assistant</strong> – CS Fundamentals, Indiana University (2025–Present)</li>
-        <li><strong>Full Stack Developer Intern</strong> – Y STEM and Chess (Summer 2025)</li>
-        <li><strong>Software Developer Intern</strong> – Azurite EduTech, India (2023)</li>
-        <li><strong>UI/UX Intern</strong> – ASIMITH, India (2022)</li>
-      </ul>
-    </section>
-
-    <section id="hobbies" class="section">
-      <h2>Hobbies & Interests</h2>
-      <div class="hobby-box">
-        <p>I enjoy organizing student and community events that bring people together through creativity and purpose. Singing and dancing are my favorite ways to express myself outside of tech. These passions help me stay grounded, energized, and confident in everything I do.</p>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-left">
+      <div class="nav-avatar">S</div>
+      <div>
+        <div class="nav-name">Spoorti S. Patil</div>
+        <div class="nav-title">Software Engineer</div>
       </div>
-    </section>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-btn">Hire me</a>
+  </nav>
 
-    <section id="contact" class="section light">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:patilspoorti02@gmail.com">patilspoorti02@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/spoorti-sidramappa-patil" target="_blank">linkedin.com/in/spoorti-sidramappa-patil</a></p>
-    </section>
-  </main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <div class="hero-badge h-a">
+        <div class="badge-dot"></div>
+        <span class="badge-text">Open to opportunities · Indiana, USA</span>
+      </div>
+      <h1 class="hero-heading h-a">
+        Spoorti<br>
+        <em>Sidramappa</em><br>
+        Patil
+      </h1>
+      <div class="hero-role h-a">Full-Stack &amp; Front-End Engineer</div>
+      <p class="hero-desc h-a">
+        Master's student in Computer Science at Indiana University. I build practical, user-friendly software — clean interfaces, solid backends, and cloud-ready deployments.
+      </p>
+      <div class="hero-actions h-a">
+        <a href="#projects" class="btn-primary">View projects</a>
+        <a href="RESUME_PATIL.pdf" download class="btn-secondary">Download résumé</a>
+      </div>
+      <div class="hero-links h-a">
+        <a href="mailto:patilspoorti02@gmail.com" class="hero-link">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4.24-8 5-8-5V6l8 5 8-5v2.24Z"/></svg>
+          patilspoorti02@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/spoorti-sidramappa-patil" target="_blank" class="hero-link">
+          <svg viewBox="0 0 24 24"><path d="M6.94 8.5H3.56V20h3.38V8.5Zm-1.7-5.44A1.96 1.96 0 1 0 5.25 6.94 1.96 1.96 0 0 0 5.24 3.06ZM20.75 13.08c0-3.47-1.85-5.08-4.32-5.08-1.99 0-2.88 1.1-3.38 1.87V8.5H9.67V20h3.38v-6.42c0-.34.02-.68.12-.93.27-.68.89-1.38 1.93-1.38 1.36 0 1.9 1.04 1.9 2.57V20h3.38v-6.92Z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/spoortip02" target="_blank" class="hero-link">
+          <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.66.5 12.03c0 5.1 3.3 9.43 7.87 10.96.58.11.79-.25.79-.56 0-.27-.01-1.18-.02-2.14-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.71.08-.69.08-.69 1.16.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.11-.75.4-1.27.73-1.56-2.56-.29-5.25-1.29-5.25-5.74 0-1.27.45-2.31 1.19-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.19 1.19a10.9 10.9 0 0 1 5.81 0c2.21-1.5 3.18-1.19 3.18-1.19.64 1.59.24 2.76.12 3.05.74.82 1.19 1.86 1.19 3.13 0 4.46-2.7 5.45-5.28 5.73.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.68.8.56 4.56-1.53 7.86-5.86 7.86-10.96C23.5 5.66 18.35.5 12 .5Z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
 
-  <footer class="footer">
-    <p>© 2025 Spoorti Sidramappa Patil</p>
+    <div class="hero-right">
+      <div class="photo-wrap">
+        <img src="your-photo.jpg" alt="Spoorti Sidramappa Patil" />
+        <div class="photo-overlay"></div>
+        <div class="photo-tag">
+          <div class="photo-tag-name">Spoorti S. Patil</div>
+          <div class="photo-tag-sub">MS CS · Indiana University</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-header reveal">
+      <span class="section-label">01 · Skills</span>
+      <h2 class="section-title">Technical <em>expertise</em></h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="skills-board">
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Languages</div>
+        <div class="skill-tags">
+          <span class="s-tag">Python</span>
+          <span class="s-tag">JavaScript</span>
+          <span class="s-tag">Java</span>
+          <span class="s-tag">C / C++</span>
+          <span class="s-tag">Dart</span>
+          <span class="s-tag">HTML / CSS</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Frameworks & Backend</div>
+        <div class="skill-tags">
+          <span class="s-tag">React.js</span>
+          <span class="s-tag">Node.js</span>
+          <span class="s-tag">Spring Boot</span>
+          <span class="s-tag">Flask</span>
+          <span class="s-tag">Flutter</span>
+          <span class="s-tag">REST APIs</span>
+          <span class="s-tag">Microservices</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Databases</div>
+        <div class="skill-tags">
+          <span class="s-tag">PostgreSQL</span>
+          <span class="s-tag">MySQL</span>
+          <span class="s-tag">SQL Server</span>
+          <span class="s-tag">MongoDB</span>
+          <span class="s-tag">Cassandra</span>
+          <span class="s-tag">Neo4j</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Cloud & DevOps</div>
+        <div class="skill-tags">
+          <span class="s-tag">AWS (EC2, S3)</span>
+          <span class="s-tag">Azure</span>
+          <span class="s-tag">Docker</span>
+          <span class="s-tag">Kubernetes</span>
+          <span class="s-tag">Terraform</span>
+          <span class="s-tag">CI/CD</span>
+          <span class="s-tag">Git / GitHub</span>
+          <span class="s-tag">Figma</span>
+          <span class="s-tag">Jira</span>
+          <span class="s-tag">Postman</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-header reveal">
+      <span class="section-label">02 · Projects</span>
+      <h2 class="section-title">Selected <em>work</em></h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="projects-grid">
+      <div class="proj-card reveal">
+        <div class="proj-top">
+          <div class="proj-tags-row">
+            <span class="p-tag">Solidity</span>
+            <span class="p-tag">React</span>
+            <span class="p-tag">Web3.js</span>
+            <span class="p-tag">Ethereum</span>
+          </div>
+          <div class="proj-links-top">
+            <a href="#" class="icon-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.66.5 12.03c0 5.1 3.3 9.43 7.87 10.96.58.11.79-.25.79-.56 0-.27-.01-1.18-.02-2.14-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.71.08-.69.08-.69 1.16.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.11-.75.4-1.27.73-1.56-2.56-.29-5.25-1.29-5.25-5.74 0-1.27.45-2.31 1.19-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.19 1.19a10.9 10.9 0 0 1 5.81 0c2.21-1.5 3.18-1.19 3.18-1.19.64 1.59.24 2.76.12 3.05.74.82 1.19 1.86 1.19 3.13 0 4.46-2.7 5.45-5.28 5.73.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.68.8.56 4.56-1.53 7.86-5.86 7.86-10.96C23.5 5.66 18.35.5 12 .5Z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="proj-name">Secure Digital Identity<br>using NFTs</div>
+        <div class="proj-desc">
+          Ethereum dApp with smart contracts for on-chain identity verification.
+          <ul class="proj-bullets">
+            <li>Built and deployed 3 Ethereum smart contracts using Solidity for minting and transferring NFT-based identity tokens.</li>
+            <li>Developed a React frontend integrating MetaMask wallet for seamless NFT minting and real-time transaction tracking.</li>
+            <li>Connected frontend to Ethereum testnet via Web3.js with optimized async calls.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-top">
+          <div class="proj-tags-row">
+            <span class="p-tag">AWS EC2</span>
+            <span class="p-tag">PostgreSQL</span>
+            <span class="p-tag">RDS</span>
+          </div>
+          <div class="proj-links-top">
+            <a href="#" class="icon-link" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.66.5 12.03c0 5.1 3.3 9.43 7.87 10.96.58.11.79-.25.79-.56 0-.27-.01-1.18-.02-2.14-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.71.08-.69.08-.69 1.16.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.11-.75.4-1.27.73-1.56-2.56-.29-5.25-1.29-5.25-5.74 0-1.27.45-2.31 1.19-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.19 1.19a10.9 10.9 0 0 1 5.81 0c2.21-1.5 3.18-1.19 3.18-1.19.64 1.59.24 2.76.12 3.05.74.82 1.19 1.86 1.19 3.13 0 4.46-2.7 5.45-5.28 5.73.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.68.8.56 4.56-1.53 7.86-5.86 7.86-10.96C23.5 5.66 18.35.5 12 .5Z"/></svg></a>
+            
+          </div>
+        </div>
+        <div class="proj-name">Event Management<br>System</div>
+        <div class="proj-desc">
+          Role-based platform for browsing and registering for workshops and seminars.
+          <ul class="proj-bullets">
+            <li>Role-based access control for super admin, faculty, and student roles with secure authentication.</li>
+            <li>Hosted on AWS EC2 for global accessibility; PostgreSQL schema on AWS RDS with indexed queries.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-top">
+          <div class="proj-tags-row">
+            <span class="p-tag">React</span>
+            <span class="p-tag">Node.js</span>
+            <span class="p-tag">Maps</span>
+          </div>
+          <div class="proj-links-top">
+            <a href="#" class="icon-link" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.66.5 12.03c0 5.1 3.3 9.43 7.87 10.96.58.11.79-.25.79-.56 0-.27-.01-1.18-.02-2.14-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.71.08-.69.08-.69 1.16.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.11-.75.4-1.27.73-1.56-2.56-.29-5.25-1.29-5.25-5.74 0-1.27.45-2.31 1.19-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.19 1.19a10.9 10.9 0 0 1 5.81 0c2.21-1.5 3.18-1.19 3.18-1.19.64 1.59.24 2.76.12 3.05.74.82 1.19 1.86 1.19 3.13 0 4.46-2.7 5.45-5.28 5.73.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.68.8.56 4.56-1.53 7.86-5.86 7.86-10.96C23.5 5.66 18.35.5 12 .5Z"/></svg></a>
+            
+          </div>
+        </div>
+        <div class="proj-name">Delivery Management<br>System</div>
+        <div class="proj-desc">
+          Role-based web app for managing deliveries, drivers, and live status updates.
+          <ul class="proj-bullets">
+            <li>Separate dashboards for drivers and managers with chat, live tracking, and history views.</li>
+            <li>Reusable UI component library and centralized state management for consistency across modules.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-top">
+          <div class="proj-tags-row">
+            <span class="p-tag">Flask</span>
+            <span class="p-tag">MySQL</span>
+            <span class="p-tag">Data Viz</span>
+          </div>
+          <div class="proj-links-top">
+            <a href="#" class="icon-link" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.66.5 12.03c0 5.1 3.3 9.43 7.87 10.96.58.11.79-.25.79-.56 0-.27-.01-1.18-.02-2.14-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.71.08-.69.08-.69 1.16.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.11-.75.4-1.27.73-1.56-2.56-.29-5.25-1.29-5.25-5.74 0-1.27.45-2.31 1.19-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.19 1.19a10.9 10.9 0 0 1 5.81 0c2.21-1.5 3.18-1.19 3.18-1.19.64 1.59.24 2.76.12 3.05.74.82 1.19 1.86 1.19 3.13 0 4.46-2.7 5.45-5.28 5.73.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.68.8.56 4.56-1.53 7.86-5.86 7.86-10.96C23.5 5.66 18.35.5 12 .5Z"/></svg></a>
+            
+          </div>
+        </div>
+        <div class="proj-name">F1 Data Analysis<br>Platform</div>
+        <div class="proj-desc">
+          Analytics dashboard for exploring race trends and driver statistics.
+          <ul class="proj-bullets">
+            <li>Flask + MySQL backend with clean routing and full CRUD for driver records.</li>
+            <li>Interactive charts and filterable tables to surface insights quickly.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-header reveal">
+      <span class="section-label">03 · Experience</span>
+      <h2 class="section-title">Work <em>history</em></h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="exp-list">
+      <div class="exp-row reveal">
+        <div class="exp-left">
+          <div class="exp-company">Y STEM and Chess Inc.</div>
+          <div class="exp-role">Full Stack Developer Intern</div>
+          <div class="exp-meta">Jul 2025 – Aug 2025<br>Idaho, USA</div>
+        </div>
+        <ul class="exp-bullets">
+          <li>Redesigned key UI components, boosting site usability and user engagement.</li>
+          <li>Implemented and delivered 8+ responsive React.js pages, improving mobile experience and Lighthouse performance scores.</li>
+        </ul>
+      </div>
+
+      <div class="exp-row reveal">
+        <div class="exp-left">
+          <div class="exp-company">ASIMITH</div>
+          <div class="exp-role">UI/UX Intern</div>
+          <div class="exp-meta">Feb 2023 – May 2023<br>Kalaburagi, India</div>
+        </div>
+        <ul class="exp-bullets">
+          <li>Designed 15+ high-fidelity mobile health app screens in Figma with Lottie animations, improving prototype engagement during usability testing.</li>
+          <li>Conducted 5+ user tests and research sessions to validate and refine designs.</li>
+        </ul>
+      </div>
+
+      <div class="exp-row reveal">
+        <div class="exp-left">
+          <div class="exp-company">Azurite EduTech</div>
+          <div class="exp-role">Software Developer Intern</div>
+          <div class="exp-meta">May 2022 – Oct 2022<br>Kalaburagi, India</div>
+        </div>
+        <ul class="exp-bullets">
+          <li>Crafted 12+ dynamic Flutter Web forms using MVVM architecture, reducing form submission errors and improving state efficiency.</li>
+          <li>Built secure login/signup flows using custom widgets, Dart, and Firebase backend integration.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-header reveal">
+      <span class="section-label">04 · Education</span>
+      <h2 class="section-title">Academic <em>background</em></h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-eyebrow">Graduate · 2024 – 2026</div>
+        <div class="edu-school">Indiana University</div>
+        <div class="edu-degree">M.S. Computer Science<br>Luddy School of Informatics<br>Algorithms · Software Engineering · Networks</div>
+        <span class="edu-gpa">GPA 3.717</span>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-eyebrow">Undergraduate · 2019 – 2023</div>
+        <div class="edu-school">PDACE, Kalaburagi</div>
+        <div class="edu-degree">B.E. Computer Science & Engineering<br>Python · AI · Cloud Computing · DBMS</div>
+        <span class="edu-gpa">CGPA 8.27</span>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-eyebrow">Certifications</div>
+        <div class="edu-school">NPTEL · Microsoft · SAP · JSpiders</div>
+        <div class="edu-degree">IoT & Entrepreneurship<br>Artificial Intelligence (Microsoft & SAP)<br>Core Java & Web Technologies</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact" style="border-bottom: none;">
+    <div class="section-header reveal">
+      <span class="section-label">05 · Contact</span>
+      <h2 class="section-title">Get in <em>touch</em></h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="contact-layout">
+      <div class="reveal">
+        <h2 class="contact-heading">
+          Let's work<br><em>together.</em>
+        </h2>
+        <p class="contact-sub">
+          I'm actively looking for software engineering opportunities — whether that's full-stack, front-end, UI, or anything in between. I'm open to all industries and team sizes. If you're looking for someone who writes clean code and cares about the details, let's talk.
+        </p>
+        <div class="contact-btns">
+          <a href="mailto:patilspoorti02@gmail.com" class="btn-primary">Email me</a>
+          <a href="RESUME_PATIL.pdf" download class="btn-secondary">Download résumé</a>
+        </div>
+      </div>
+
+      <div class="contact-info reveal">
+        <div class="c-row">
+          <span class="c-label">Email</span>
+          <a href="mailto:patilspoorti02@gmail.com" class="c-val">patilspoorti02@gmail.com</a>
+        </div>
+        <div class="c-row">
+          <span class="c-label">LinkedIn</span>
+          <a href="https://linkedin.com/in/spoorti-sidramappa-patil" class="c-val" target="_blank">spoorti-sidramappa-patil</a>
+        </div>
+        <div class="c-row">
+          <span class="c-label">GitHub</span>
+          <a href="https://github.com/spoortip02" class="c-val" target="_blank">@spoortip02</a>
+        </div>
+        <div class="c-row">
+          <span class="c-label">Location</span>
+          <span class="c-val">Indiana, USA</span>
+        </div>
+        <div class="c-row">
+          <span class="c-label">Status</span>
+          <span class="c-val" style="color:#4ade80;">Open to opportunities</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="f-copy">© <span id="yr"></span> Spoorti Sidramappa Patil</div>
+    <div class="f-links">
+      <a href="https://github.com/spoortip02" target="_blank" class="f-link">GitHub</a>
+      <a href="https://linkedin.com/in/spoorti-sidramappa-patil" target="_blank" class="f-link">LinkedIn</a>
+      <a href="mailto:patilspoorti02@gmail.com" class="f-link">Email</a>
+    </div>
   </footer>
+
+  <script>
+    document.getElementById('yr').textContent = new Date().getFullYear();
+
+    // ── Cursor
+    const dot  = document.getElementById('c-dot');
+    const ring = document.getElementById('c-ring');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      dot.style.transform = `translate(${mx - 3.5}px, ${my - 3.5}px)`;
+    });
+
+    (function loop() {
+      rx += (mx - rx - 17) * 0.11;
+      ry += (my - ry - 17) * 0.11;
+      ring.style.transform = `translate(${rx}px, ${ry}px)`;
+      requestAnimationFrame(loop);
+    })();
+
+    document.querySelectorAll('a, button').forEach(el => {
+      el.addEventListener('mouseenter', () => document.body.classList.add('cursor-grow'));
+      el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-grow'));
+    });
+
+    // ── Scroll reveal
+    const io = new IntersectionObserver(entries => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('in'), i * 70);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+
 </body>
 </html>
