@@ -5,8 +5,8 @@
   --bg-3:        #1c1e28;
   --border:      rgba(255,255,255,0.08);
   --border-2:    rgba(255,255,255,0.13);
-  --text:        #c8cad4;
-  --text-2:      #7a7f94;
+  --text:        #dde0e8;
+  --text-2:      #9aa0b8;
   --white:       #eceef4;
   --accent:      #6b8cff;
   --accent-2:    #4a6ef5;
@@ -140,20 +140,23 @@ nav {
 /* ── HERO ────────────────────────────────────────── */
 .hero {
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 420px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0;
+  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px 48px 0;
+  text-align: center;
 }
 
 .hero-left {
-  padding-right: 80px;
+  padding-right: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0;
+  max-width: 720px;
 }
 
 .hero-badge {
@@ -222,6 +225,7 @@ nav {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 52px;
 }
 
@@ -256,6 +260,7 @@ nav {
   display: flex;
   gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-link {
@@ -784,7 +789,6 @@ footer {
 /* ── RESPONSIVE ──────────────────────────────────── */
 @media (max-width: 1024px) {
   .hero {
-    grid-template-columns: 1fr;
     min-height: auto;
     padding: 90px 32px 60px;
   }
